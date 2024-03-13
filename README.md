@@ -77,8 +77,15 @@ This example uses Python 3.10.12 and pip 22.0.2
     ```pip install google-api-python-client google-auth pdfplumber```
 
 2. Change the constants PDF_FILE, CREDENTIALS_FILE and CAL_ID.
-3. python3 scraper.py
-4. See the magic!
+
+   PDF_FILE is your PDF to be scraped
+   
+   CREDENTIALS_FILE is the file downloaded in the step 5 of the google pre-configuration
+
+   CAL_ID is the Google Calendar Id you can get on calendar “Settings and sharing”
+      
+4. python3 scraper.py
+5. See the magic!
 
 ## Example of PDF
 
