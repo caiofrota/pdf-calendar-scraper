@@ -1,7 +1,7 @@
-# PDF Scraper
+# PDF Calendar Scraper
 
 ## Overview
-A tool that scrap a specific pdf format table and update google calendars.
+A tool that scrap a specific pdf table format and update google calendars.
 
 ## Google pre-configuration
 
