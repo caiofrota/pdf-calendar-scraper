@@ -4,8 +4,9 @@ from googleapiclient.discovery import build
 import pdfplumber
 
 CAL_ID = "<add your calendar id here>@group.calendar.google.com"
-
+PDF_FILE = "path/to/your/file.pdf"
 CREDENTIALS_FILE = "path/to/your/credentials.json"
+
 SCOPES = ["https://www.googleapis.com/auth/calendar"]
 TIMEZONE = "America/Fortaleza"
 
@@ -30,7 +31,7 @@ def get_events(file):
 
 def main():
   service = get_calendar_service()
-  for event in get_events("path/to/your/file.pdf"):
+  for event in get_events(PDF_FILE):
     id = f"{event['event']}"
     found = service.events().list(calendarId=CAL_ID, iCalUID=id, showDeleted=True).execute().get("items")
     
