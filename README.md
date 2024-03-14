@@ -20,7 +20,6 @@ A tool that scrap a specific pdf table format and update google calendars.
 
     ![image](https://github.com/caiofrota/pdf-scraper/assets/9461960/c462c006-5c55-450f-9f2d-3c491a76f77e)
 
-
 3. Create Service Account on Google Cloud Platform. Service Account is for non-human users.
 
     Please move to “APIs & Services” > “Service Accounts”.
@@ -39,7 +38,7 @@ A tool that scrap a specific pdf table format and update google calendars.
 
     ![image](https://github.com/caiofrota/pdf-scraper/assets/9461960/2eb02142-9f16-4808-b319-08fa21b2b809)
 
-6. Generate Service Account key.
+4. Generate Service Account key.
    
     Please select “Actions” > “Manage keys” at Service Account page.
     
@@ -53,7 +52,7 @@ A tool that scrap a specific pdf table format and update google calendars.
 
     ![image](https://github.com/caiofrota/pdf-scraper/assets/9461960/00d47657-c88c-42e6-902f-94d9d532e930)
 
-7. Add Service Account to Google Calendar’s share member.
+5. Add Service Account to Google Calendar’s share member.
 
     Please copy Service Account email address.
     After that, Please open Google Calendar and move to “Settings and sharing”.
