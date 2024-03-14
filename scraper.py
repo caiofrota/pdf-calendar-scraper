@@ -6,9 +6,9 @@ import pdfplumber
 CAL_ID = "<add your calendar id here>@group.calendar.google.com"
 PDF_FILE = "path/to/your/file.pdf"
 CREDENTIALS_FILE = "path/to/your/credentials.json"
+TIMEZONE = "America/Fortaleza"
 
 SCOPES = ["https://www.googleapis.com/auth/calendar"]
-TIMEZONE = "America/Fortaleza"
 
 def get_calendar_service():
   credentials = service_account.Credentials.from_service_account_file(CREDENTIALS_FILE, scopes=SCOPES)

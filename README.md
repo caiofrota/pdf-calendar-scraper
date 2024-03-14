@@ -55,7 +55,7 @@ A tool that scrap a specific pdf table format and update google calendars.
 
 7. Add Service Account to Google Calendar’s share member.
 
-    Please copy Service Account email addoress.
+    Please copy Service Account email address.
     After that, Please open Google Calendar and move to “Settings and sharing”.
 
     ![image](https://github.com/caiofrota/pdf-scraper/assets/9461960/cc49ee3a-fb8d-4c6a-8a16-0301aa25789a)
@@ -76,13 +76,15 @@ This example uses Python 3.10.12 and pip 22.0.2
    
     ```pip install google-api-python-client google-auth pdfplumber```
 
-2. Change the constants PDF_FILE, CREDENTIALS_FILE and CAL_ID.
+2. Change the constants PDF_FILE, CREDENTIALS_FILE, CAL_ID and TIMEZONE.
 
    PDF_FILE is your PDF to be scraped
    
    CREDENTIALS_FILE is the file downloaded in the step 5 of the google pre-configuration
 
    CAL_ID is the Google Calendar Id you can get on calendar “Settings and sharing”
+
+   TIMEZONE is the time zone where you want to see in your calendar
       
 4. python3 scraper.py
 5. See the magic!
@@ -91,11 +93,19 @@ This example uses Python 3.10.12 and pip 22.0.2
 
 ![image](https://github.com/caiofrota/pdf-scraper/assets/9461960/c6b40d9f-74dc-4525-a5fa-aff31d66a55b)
 
+### Support or contact
+Contact me at caiofrota@gmail.com for questions and we'll help you sort it out.
+
+### Issues
+Find a bug or want to request a new feature? Please let us know by [submitting an issue](https://github.com/caiofrota/pdf-calendar-scraper/issues).
+
 ## Contributing
 Contributions are welcome! If you have ideas for improvements, bug fixes, or new features, please feel free to submit an issue or pull request.
 
+Please read [CONTRIBUTING.md](https://gist.github.com/caiofrota/6e65a17fd3bf100d058cb48dcc780b21) for details on our code of conduct, and the process for submitting pull requests to us.
+
 ## License
-PDF Scraper is released under MIT License. Feel free to use, modify, and distribute the application as per the license terms.
+PDF Scraper is released under [MIT License](https://github.com/caiofrota/web-soccer-match-crawler/blob/main/LICENSE). Feel free to use, modify, and distribute the application as per the license terms.
 
 ## Disclaimer
 This tool is intended for personal use. Users are responsible for adhering to the terms of service of the websites they scrape.
